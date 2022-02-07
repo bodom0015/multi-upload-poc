@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { RawWebkitComponent } from './raw-webkit.component';
 
@@ -6,7 +6,7 @@ describe('RawWebkitComponent', () => {
   let component: RawWebkitComponent;
   let fixture: ComponentFixture<RawWebkitComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ RawWebkitComponent ]
     })
