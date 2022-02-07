@@ -29,7 +29,7 @@ export class FileDropComponent implements OnInit {
 
           // Here you can access the real file
           console.log(droppedFile.relativePath, file);
-          
+
           // TODO: POST to Girder
           this.http.post('https://girder.local.wholetale.org/api/v1/file', {
             parentType: 'folder',
