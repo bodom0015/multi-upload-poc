@@ -5,7 +5,7 @@ WORKDIR /usr/app/
 COPY package.json /usr/app/
 RUN npm install
 COPY . /usr/app/
-RUN node_modules/.bin/ng build --prod
+RUN node_modules/.bin/ng build --configuration production
 
 # Runtime container: NGINX
 FROM nginx

@@ -2,6 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
 
+Upgraded to v13 via `ng update`
+
+## Run with Docker
+Build image:
+```bash
+docker build --pull -t wt/dropzone .
+```
+
+Run image:
+```bash
+docker run -it --rm -p 80:80 wt/dropzone
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
