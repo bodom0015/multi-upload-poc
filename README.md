@@ -12,7 +12,7 @@ docker build --pull -t wt/dropzone .
 
 Run image:
 ```bash
-docker run -it --rm -p 80:80 wt/dropzone
+docker run -it --rm -p 4200:80 wt/dropzone
 ```
 
 ## Development server
