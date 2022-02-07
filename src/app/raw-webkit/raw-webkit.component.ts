@@ -2,7 +2,6 @@ import {ChangeDetectorRef, Component, HostListener} from '@angular/core';
 
 interface WebkitRelativeFile extends File {
   fullPath?: string;
-  webkitRelativePath?: string;
 }
 
 interface FileUpload {
