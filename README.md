@@ -1,5 +1,7 @@
 # multi-upload-poc
 
+See https://wiki.ncsa.illinois.edu/display/~lambert8/Directory+Upload for motivation / notes
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
 
 Upgraded to v13 via `ng update`
